@@ -15,9 +15,9 @@
 .around-world-grid-container {
   display: grid;
   grid-template-areas:
-    "image"
-    "title"
-    "location";
+    'image'
+    'title'
+    'location';
   grid-template-columns: auto;
   color: white;
 }
@@ -51,10 +51,10 @@
 }
 
 .around-world-temp {
-  font-size: 1.4vw;
+  font-size: 1vw;
   padding-right: 1vw;
   float: right;
-  padding-top: 0.7vw;
+  padding-top: 1vw;
 }
 
 .around-world-title-text {
