@@ -38,7 +38,6 @@ const Weather = () => {
       .then(res => res.json())
       .then(data => {
         let address = data.results[0].address_components;
-        console.log('address: ', address);
         let geoLocation = data.results[0].geometry.location;
         let lon = geoLocation.lng;
         let lat = geoLocation.lat;
