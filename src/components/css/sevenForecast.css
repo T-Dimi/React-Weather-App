@@ -25,8 +25,8 @@
 
 .seven-forecast-grid-container {
   display: grid;
-  grid-template-areas: "one two three four five six seven";
-  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-areas: 'one two three four five six seven';
+  grid-template-columns: 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw 11.1vw;
   grid-template-rows: auto;
 }
 
